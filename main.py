@@ -12,10 +12,10 @@ while status_loop=='ON':
         
         case 'INITIALIZATION':   
             bot.acessa_site('https://rpachallenge.com/')
-            state = 'GET'
+            state = 'GET TRANSACTION'
             continue
         
-        case 'GET':    
+        case 'GET TRANSACTION':    
             dados = bot.download_arquivo()
             state = 'PROCESS'
             continue
