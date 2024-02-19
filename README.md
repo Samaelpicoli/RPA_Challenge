@@ -8,7 +8,7 @@ RPA Challenge é uma aplicação web para treinamento de RPA, onde deve ser feit
 o desafio é que os campos são dinâmicos e mudam de lugar a cada inserção na página, então a dificuldade está em mapear os seletores desses elementos inputs,
 no meu projeto fiz o mapeamento pelo seletor Xpath de cada elemento input.
 
-Ao final da inclusão a página mostra uma mensagem mostrando o tempo que o robô levou para a execução, nesse momento o robô faz a tradução dessa mensagem e
+Ao final da inclusão a página carrega uma mensagem mostrando o tempo que o robô levou para a execução, nesse momento o robô faz a tradução dessa mensagem e
 faz um screenshot da tela, salvando na pasta do projeto.
 
 ## Layout da web
