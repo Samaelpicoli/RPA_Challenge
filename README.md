@@ -13,33 +13,20 @@ Ao final da inclusão e verificação dos candidatos, a página mostra uma mensa
 ![Web 1](https://github.com/Samaelpicoli/RPA_Challenge/blob/main/assets/web1.PNG)
 
 
-## Desenho do Projeto
-
-O mesmo modelo esta disponível no site do exercício.
-
-![Web 1](https://github.com/Samaelpicoli/Exercicio_RPA/blob/main/assets/modelo.png)
-
 # Tecnologias Utilizadas
 
 Python
 
 ## Bibliotecas Utilizadas
 
-Pandas
-
-Selenium
-
-Requests
-
-Webdriver-Manager
-
+Estão listadas no arquivo requirements.txt
 
 ## Sobre o código
 
-O projeto foi dividido em módulos, onde um arquivo faz as interações com o site, e outro arquivo faz a requisição e faz download do CSV, 
-o arquivo config.py é onde está sendo armazenado o usuário e a senha (esses dados estão disponíveis no site do exercício).
+O projeto foi dividido em módulos, onde um arquivo (desafio_rpa) contém a classe que faz todas as interações com o site (inicializa, faz a requisição do arquivo, leitura do arquivo e preenchimento dos dados),
+e outro arquivo (traducao.py) contém a classe que traduz a mensagem final do site para PT-BR, ao final do processo o robô salva um screenshot da tela final do site.
 
-Os arquivos são chamados dentro do arquivo main que os executa.
+Os arquivos são chamados dentro do arquivo main que instância a classe Desafio e executa o processo.
 
 No main, o projeto foi desenvolvido como uma máquina de estados (INITIALIZATION, GET TRANSACTION, PROCESS, END), emulando o ReFramework do UiPath,
 auxiliando a criar automações mais confiáveis, flexíveis e fáceis de manter ao longo do tempo.
