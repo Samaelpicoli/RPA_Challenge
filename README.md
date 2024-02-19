@@ -23,7 +23,7 @@ Estão listadas no arquivo requirements.txt
 
 ## Sobre o código
 
-O projeto foi dividido em módulos, onde um arquivo (desafio_rpa) contém a classe que faz todas as interações com o site (inicializa, faz a requisição do arquivo, leitura do arquivo e preenchimento dos dados),
+O projeto foi dividido em módulos, onde um arquivo (desafio_rpa.py) contém a classe que faz todas as interações com o site (inicializa, faz a requisição do arquivo, leitura do arquivo e preenchimento dos dados),
 e outro arquivo (traducao.py) contém a classe que traduz a mensagem final do site para PT-BR, ao final do processo o robô salva um screenshot da tela final do site.
 
 Os arquivos são chamados dentro do arquivo main que instância a classe Desafio e executa o processo.
