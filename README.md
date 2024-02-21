@@ -33,7 +33,7 @@ No main, o projeto foi desenvolvido como uma máquina de estados (INITIALIZATION
 auxiliando a criar automações mais confiáveis, flexíveis e fáceis de manter ao longo do tempo.
 
 # Como executar o projeto
-Pré-requisitos: Python 3.11
+Pré-requisitos: Python 3.11+
 
 ```bash
 #insalar dependências, dentro do seu projeto e com ambiente virtual ativo:
